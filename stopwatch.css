@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f5f5;
+}
+
+.container {
+    text-align: center;
+    object-fit: center;
+}
+
+.stopwatch-img {
+    width: 190px; /* Adjust the width as needed */
+    height: 240px; /* Maintain aspect ratio */
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: green;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #38a23b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: #1fbb27;
+}
+.footer {
+    background-color: #081b31;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+footer {
+    color: #fffefe;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .stopwatch-img {
+        width: 80px; /* Adjust for smaller screens */
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    button {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+}
